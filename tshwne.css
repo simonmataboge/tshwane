@@ -578,7 +578,7 @@ h2
 /*-----Slider------*/
 #courses
 {
-    height: 450px;
+    height: 350px;
 }
 @media screen and (max-width:1000px ){
 	#courses{
