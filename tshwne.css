@@ -572,7 +572,7 @@ h2
 }
 @media screen and (max-width:1000px ){
 	#courses{
-        height:700px;
+        height:900px;
 	}
 }
 #headerSlider
@@ -622,6 +622,7 @@ h2
 	#contacts{
         margin-top: 10px;
         margin-left: 10px;
+		height:600px;
 	}
 }
 .contacts
@@ -685,7 +686,7 @@ input
 }
 @media screen and (max-width:1000px ){
 	input{
-        width:370px;
+        width:340px;
 	}
 }
 textarea
@@ -694,7 +695,7 @@ textarea
 }
 @media screen and (max-width:1000px ){
 	textarea{
-		width:370px;
+		width:340px;
 	}
 }
 
@@ -721,7 +722,7 @@ textarea
 }
 @media screen and (max-width:1000px ){
 	.form-msg button{
-        width:370px;
+        width:340px;
 	}
 }
 .form-msg h6
