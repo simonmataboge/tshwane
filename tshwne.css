@@ -41,8 +41,13 @@ body
 }
 @media screen and (max-width:1000px ){
 	.menu{
-        margin-top: 10px;
+        margin-top: 30px;
         margin-left: 10px;
+	}
+}
+@media screen and (max-width:400px ){
+	.menu{
+       display:none;
 	}
 }
 .menu a
@@ -66,6 +71,16 @@ body
     background-size: cover;
     color: fuchsia;
     text-align: center;
+}
+@media screen and (max-width:1000px ){
+	#home{
+        height:800px;
+	}
+}
+@media screen and (max-width:1000px ){
+	.home{     
+        margin-left: 10px;
+	}
 }
 #home h1
 {
@@ -188,8 +203,8 @@ h1
 }
 @media screen and (max-width:1000px ){
 	h1{
-        margin-left: 140px;
-        width: 200px;
+        margin-left: 40px;
+        width: 420px;
 	}
 }
 
@@ -206,11 +221,11 @@ h2
 }
 @media screen and (max-width:1000px ){
 	h2{
-        margin-left: 140px;
-        width: 200px;
+        margin-left: 40px;
+        width: 420px;
 	}
 }
-#about, #study
+#about
 {
 	height:500px;
     margin-left: 80px;
@@ -259,7 +274,14 @@ h2
     margin-top: 50px;
     color: white;
 }
-
+@media screen and (max-width:1000px ){
+	.mission-box{
+		width:480px;
+		padding:10px;
+        margin-top: 10px;
+        margin-left: 10px;
+	}
+}
 
 .box .fa 
 {
@@ -273,6 +295,12 @@ h2
 	width:20%;
 	height:60px;
 }
+@media screen and (max-width:1000px ){
+	.box .fa{
+       
+        margin-left: 150px;
+	}
+}
 .content-box
 {
 	margin-top:10px;
@@ -282,7 +310,7 @@ h2
 }
 @media screen and (max-width:1000px ){
 	.content-box{
-        width: 455px;height: 230px;
+        width: 455px;height: 180px;
         
 	}
 }
@@ -340,8 +368,9 @@ h2
 }
 @media screen and (max-width:1000px ){
 	#services{
-        width: 460px;
+        width: 480px;
         margin-left: 0px;
+		height:400px;
 	}
 }
 .services
@@ -365,7 +394,7 @@ h2
 }
 @media screen and (max-width:1000px ){
 	.services img{
-        width: 140px;
+        width: 300px;
         height: 150px;
 	}
 }
@@ -376,6 +405,13 @@ h2
     width: 290px;
     padding: 10px;
 	
+}
+@media screen and (max-width:1000px ){
+	.services-beads{
+		width:400px;
+        margin-top: 10px;
+        margin-left: 100px;
+	}
 }
 .services-beads li
 {
@@ -410,13 +446,23 @@ h2
 	height:700px;
     margin-left: 80px;
 }
-
+@media screen and (max-width:1000px ){
+	#study{
+        margin-top: 10px;
+        margin-left: 0px;
+	}
+}
 
 
 /*---flip-card----*/
 #tutorial
 {
     height: 320px;
+}
+@media screen and (max-width:1000px ){
+	#tutorial{
+        height:700px;
+	}
 }
 .tutorial
 {
@@ -425,7 +471,7 @@ h2
 }
 @media screen and (max-width:1000px ){
 	.tutorial{
-       margin-left: 40px;
+       margin-left: 10px;
         height: 820px;
 
 	}
@@ -558,6 +604,12 @@ h2
 {
     margin-left: 80px;
 }
+@media screen and (max-width:1000px ){
+	#contacts{
+        margin-top: 10px;
+        margin-left: 10px;
+	}
+}
 .contacts
 {
     padding:10px;
@@ -567,13 +619,25 @@ h2
     width: 800px;
     
 }
+@media screen and (max-width:1000px ){
+	.contacts{
+		width:480px;
+        margin-top: 10px;
+        margin-left: 10px;
+	}
+}
 .contacts-box
 {
     margin-left:10px;
     height:240px;
     width:370px;
     display: inline-block;
-    height: 300px;
+}
+@media screen and (max-width:1000px ){
+	.contacts-box{
+        margin-top: 10px;
+        margin-left: 10px;
+	}
 }
 .content-box ul li
 {
@@ -592,7 +656,7 @@ h2
 }
 @media screen and (max-width:1000px ){
 	.form-msg{
-    margin-left: 30px;
+    margin-left: 10px;
 
 	}
 }
@@ -609,7 +673,7 @@ textarea
 }
 @media screen and (max-width:1000px ){
 	textarea{
-		width:320px;
+		width:220px;
 	}
 }
 
