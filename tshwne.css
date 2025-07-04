@@ -185,8 +185,8 @@ color: fuchsia;
 }
 @media screen and (max-width:1000px ){
 	.heading{
-        margin-left: -10px;
-        width:480px;
+        margin-left: 0px;
+        width:490px;
 	}
 }
 
@@ -254,7 +254,7 @@ h2
 	.box{
         margin-left: 0px;
         width: 460px;
-        margin-top: 10px;height: 370px;
+        margin-top: 10px;
 	}
 }
 .box:hover
@@ -370,7 +370,7 @@ h2
 	#services{
         width: 480px;
         margin-left: 0px;
-		height:400px;
+		height:600px;
 	}
 }
 .services
@@ -382,8 +382,8 @@ h2
 @media screen and (max-width:1000px ){
 	.services{
         width: 460px;
-        margin-left: 20px;
-        height: 300px;
+        margin-left: 10px;
+        height: 600px;
         margin-top: 20px;
 	}
 }
@@ -395,7 +395,7 @@ h2
 @media screen and (max-width:1000px ){
 	.services img{
         width: 300px;
-        height: 150px;
+        height: 200px;
 	}
 }
 .services-beads
@@ -562,6 +562,11 @@ h2
 {
     height: 450px;
 }
+@media screen and (max-width:1000px ){
+	#courses{
+        height:700px;
+	}
+}
 #headerSlider
 {
     margin-top: 50px;
@@ -575,6 +580,7 @@ h2
 @media screen and (max-width:1000px ){
 	#headerSlider{
         width:480px;
+		margin-left:10px;
 	}
 }
 
@@ -656,7 +662,8 @@ h2
 }
 @media screen and (max-width:1000px ){
 	.form-msg{
-    margin-left: 10px;
+    margin-left: 0px;
+		margin-top:100px;
 
 	}
 }
