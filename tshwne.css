@@ -192,6 +192,8 @@ color: fuchsia;
 	height:80px;
 	width:80%;
 	padding:10px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 @media screen and (max-width:1000px ){
 	.heading{
@@ -276,6 +278,8 @@ h2
     border-radius: 10px;
     color: white;
     background-image: url(image22.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .mission-box
 {
@@ -283,6 +287,8 @@ h2
     margin-left: 20px;
     padding: 50px;
     background-image: url(image22.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 50px;
     color: white;
 }
@@ -544,6 +550,8 @@ h2
 	height:400px;
 	width:400px;
 	transform: rotateY(180deg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 @media screen and (max-width:1000px ){
 	.flip-card-back{
@@ -592,7 +600,8 @@ h2
     margin-left: 100px;
     background-image: url(image22.png);
     color: white;
-    
+    background-repeat: no-repeat;
+    background-size: cover;    
     
 }
 @media screen and (max-width:1000px ){
