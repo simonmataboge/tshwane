@@ -93,6 +93,11 @@ body
     padding-top: 200px;
     color: fuchsia;
 }
+@media screen and (max-width:1000px ){
+	#home h1{
+        padding-top: 150px;
+	}
+}
 .home p{
     text-align: center;
 }
