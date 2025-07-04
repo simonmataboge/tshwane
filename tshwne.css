@@ -217,6 +217,7 @@ h1
 	h1{
         margin-left: 40px;
         width: 420px;
+		text-align:left;
 		font-size:40px;
 	}
 }
