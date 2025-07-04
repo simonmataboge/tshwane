@@ -78,6 +78,11 @@ body
 	}
 }
 @media screen and (max-width:1000px ){
+	#home{
+        width:480px;
+	}
+}
+@media screen and (max-width:1000px ){
 	.home{     
         margin-left: 10px;
 	}
@@ -372,7 +377,7 @@ h2
 	#services{
         width: 480px;
         margin-left: 0px;
-		height:900px;
+		height:800px;
 	}
 }
 .services
