@@ -205,6 +205,7 @@ h1
 	h1{
         margin-left: 40px;
         width: 420px;
+		font-size:46px;
 	}
 }
 
@@ -223,6 +224,7 @@ h2
 	h2{
         margin-left: 40px;
         width: 420px;
+		font-size:36px;
 	}
 }
 #about
@@ -234,7 +236,7 @@ h2
 	#about{
         width: 460px;
         margin-left: -5px;
-        height: 1150px;
+        height: 800px;
 	}
 }
 .about
@@ -370,7 +372,7 @@ h2
 	#services{
         width: 480px;
         margin-left: 0px;
-		height:600px;
+		height:900px;
 	}
 }
 .services
@@ -450,6 +452,7 @@ h2
 	#study{
         margin-top: 10px;
         margin-left: 0px;
+		height:900px;
 	}
 }
 
@@ -490,7 +493,12 @@ h2
 	margin-top:10px;
     display: inline-block;
 }
-
+@media screen and (max-width:1000px ){
+	.flip-card{
+        margin-top: 10px;
+        margin-left: 30px;
+	}
+}
 .flip-card-inner
 {
 	position:relative;
