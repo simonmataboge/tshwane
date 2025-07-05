@@ -646,7 +646,7 @@ h2
 }
 @media screen and (max-width:1000px ){
 	#contacts{
-        margin-top: 100px;
+        margin-top: 50px;
         margin-left: 10px;
 		height:600px;
 	}
@@ -814,7 +814,7 @@ textarea
 }
 @media screen and (max-width:1000px ){
 	.footer{
-        width:480px;
+        width:480px;margin-top:520px;
 	}
 }
 .foot
