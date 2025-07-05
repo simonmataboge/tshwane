@@ -607,7 +607,7 @@ h2
 }
 @media screen and (max-width:1000px ){
 	#headerSlider{
-        width:480px;
+        width:490px;
 		margin-left:0px;
 	}
 }
@@ -638,7 +638,12 @@ h2
  .head{
     padding: 50px;
 }
-
+@media screen and (max-width:1000px ){
+	.head{
+        padding: 10px;
+		
+	}
+}
 /*---contacts-----*/
 #contacts
 {
